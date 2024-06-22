@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: 'Inter';
+    height: 90vh;
+}
+main{
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 40px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+main img{
+    width: 90px;
+    border-radius: 50%;
+}
+main h1{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+main .address{
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+}
+main .description{
+    color: hsl(0, 6%, 80%);
+    margin-top: 20px;
+}
+main p{
+    font-size: 14px;
+}
+main ul{
+    list-style-type: none;
+}
+main li{
+    font-size: 14px;
+    width: 300px;
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 15px;
+    padding: 10px 0px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+main li:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
